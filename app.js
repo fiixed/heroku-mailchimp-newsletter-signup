@@ -37,7 +37,7 @@ app.post("/", function(req, res) {
 
   const options = {
     method: "POST",
-    auth: "andrew:ace8ba4817627ca435c5eed2d6dabe34b-us19"
+    auth: "**********"
   };
 
   const request = https.request(url, options, function(response) {
@@ -61,9 +61,6 @@ app.post("/failure", function(req, res) {
 app.listen(port || 3000, () =>
   console.log(`Newsletter app listening on port ${port}!`)
 );
-
-//API Key
-// ce8ba4817627ca435c5eed2d6dabe34b-us19
 
 // List ID
 // 2571579b35
